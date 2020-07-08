@@ -1,0 +1,14 @@
+<div className='card testimonial-card text-center'>
+                    <div className="card-up black lighten-1"></div>
+                    <div className="avatar mx-auto white">
+                        <img src={this.state.avatar_url} alt="media" className="rounded-circle"/>
+                    </div>
+                    <div className="card-body">
+                        <h4 className="card-title">{this.state.login}</h4>
+                    </div>
+                    <hr/>
+                    <button className="btn btn-dark mx-auto">More</button>
+                </div>
+
+
+                https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
